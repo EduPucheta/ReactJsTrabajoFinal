@@ -23,7 +23,7 @@ export const ItemsProvider = ({ children }) => {
     let total = 0;
     x.map((e) => {
       let monto = e.quantity * e.price;
-      total += monto;
+      return total += monto;
     });
     return total;
   };
