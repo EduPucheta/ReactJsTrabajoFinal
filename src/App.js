@@ -22,7 +22,7 @@ function App() {
           />
           <Route
             path="/categoria/stands-para-celulares"
-            element={<Home sectionHeading="Stands para celulares" />}
+            element={<Home sectionHeading="Stands para celulares" />} 
           />
           <Route
             path="/categoria/stands-para-computadoras" 
